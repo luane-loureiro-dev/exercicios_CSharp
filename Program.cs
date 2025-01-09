@@ -8,6 +8,8 @@ using Exercicios.Ex07;
 using Exercicios.Ex08;
 using Exercicios.Ex09;
 using Exercicios.Ex10;
+using Exercicios.Ex11;
+
 
 string opcao = "";
 
@@ -27,7 +29,8 @@ while (exibirMenu)
     Console.WriteLine("8 - Soma de uma array");
     Console.WriteLine("9 - Ordem Alfabética");
     Console.WriteLine("10 - Vogal Ou Consoante");
-    Console.WriteLine("11 - Sair");
+    Console.WriteLine("11 - Festa +18");
+    Console.WriteLine("12 - Sair");
     Console.WriteLine("");
 
     opcao = Console.ReadLine();
@@ -176,6 +179,14 @@ while (exibirMenu)
             break;
 
         case "11":
+            Console.WriteLine("Exercício 10 (Extra) - Festa +18");
+            Console.WriteLine("");
+
+            VerificadorEntrada verificadorDeEntrada = new VerificadorEntrada();
+            verificadorDeEntrada.Verificar();
+            break;
+
+        case "12":
             Console.WriteLine("Encerrando o Programa...");
             exibirMenu = false;
             break;
