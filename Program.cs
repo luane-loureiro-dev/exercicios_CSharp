@@ -7,6 +7,7 @@ using Exercicios.Ex06;
 using Exercicios.Ex07;
 using Exercicios.Ex08;
 using Exercicios.Ex09;
+using Exercicios.Ex10;
 
 string opcao = "";
 
@@ -25,7 +26,8 @@ while (exibirMenu)
     Console.WriteLine("7 - O Maior Número");
     Console.WriteLine("8 - Soma de uma array");
     Console.WriteLine("9 - Ordem Alfabética");
-    Console.WriteLine("10 - sair");
+    Console.WriteLine("10 - Vogal Ou Consoante");
+    Console.WriteLine("11 - Sair");
     Console.WriteLine("");
 
     opcao = Console.ReadLine();
@@ -163,9 +165,18 @@ while (exibirMenu)
 
             break;
 
-
         case "10":
-            Console.WriteLine("Encerrar");
+
+            Console.WriteLine("Exercício 10 (Extra) - Vogal ou Consoante");
+            Console.WriteLine("");
+
+            VerificaVogalOuConsoante verificacao = new VerificaVogalOuConsoante();
+            verificacao.Iniciar();
+
+            break;
+
+        case "11":
+            Console.WriteLine("Encerrando o Programa...");
             exibirMenu = false;
             break;
 
@@ -175,7 +186,7 @@ while (exibirMenu)
     }
 
 }
-Console.WriteLine("O programa se encerrou");
+Console.WriteLine("Obrigado!");
 
 
 
