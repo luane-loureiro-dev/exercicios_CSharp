@@ -35,3 +35,16 @@ Escreva um programa que leia um array de números inteiros e calcule a soma dos 
 #### 9. Ordenação de Nomes
 Exercício:
 Escreva um programa que leia uma lista de nomes e os ordene em ordem alfabética.
+
+### Exercícios Extras Para Estudo
+
+#### 10. Vogal Ou Consoante
+Exercício:
+Escreva um programa que leia uma letra e diga se é vogal ou consoante.
+
+#### 11. Festa +18
+Exercício:
+Escreva um programa que leia um nome, um ano de nascimento e se possue aturização dos pais, e diga se pode ou não entrar na festa.
+Pessoa maiore de idade podem entrar na festa com ou sem autorização.
+Pessoa menores de idade só com a autorização dos pais.
+
